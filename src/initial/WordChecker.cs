@@ -1,8 +1,9 @@
-namespace LetterboxedSolver;
+namespace LetterboxedSolver.Initial;
 
-public class WordChecker
+public class WordChecker : IWordChecker
 {
     private readonly WordTree _wordTree;
+    
     public WordChecker(string wordFilePath)
     {
         _wordTree = new();

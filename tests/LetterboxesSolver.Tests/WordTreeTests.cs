@@ -1,5 +1,4 @@
-using LetterboxedSolver;
-using Xunit;
+using LetterboxedSolver.Initial;
 
 public class WordTreeTests
 {

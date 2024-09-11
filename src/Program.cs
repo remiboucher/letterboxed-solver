@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using LetterboxedSolver.Initial;
 
 namespace LetterboxedSolver;
 
@@ -27,7 +28,7 @@ class Program
         {
             Console.WriteLine("Could not find a two-word answer for this puzzle");
         }
-        
+
         Console.WriteLine($"Execution time: {elapsed} ms.");
     }
 }

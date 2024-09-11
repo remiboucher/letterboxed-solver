@@ -1,4 +1,4 @@
-namespace LetterboxedSolver;
+namespace LetterboxedSolver.Initial;
 
 public class WordTree
 {

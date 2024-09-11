@@ -1,6 +1,6 @@
-namespace LetterboxedSolver;
+namespace LetterboxedSolver.Initial;
 
-public class Solver
+public class Solver : ISolver 
 {
     private readonly WordChecker _checker;
     private readonly HashSet<string> firstWordCandidates = new();
